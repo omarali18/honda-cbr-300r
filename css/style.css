@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header background */
+.header-bg{
+    background-color: rgb(38,70,83);
+}
+.Purchase-btn{
+    background-color: rgb(231,111,81);
+}
