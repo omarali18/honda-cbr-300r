@@ -21,6 +21,9 @@ body{
 .happy-client-text, .icon-color{
     color: rgb(231,111,81);
 }
+.client-name{
+    color: #23A6F0;
+}
 /* Frequently Asked Questions part */
 .img-size{
     height: 500px;
