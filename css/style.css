@@ -8,7 +8,24 @@ body{
 .Purchase-btn{
     background-color: rgb(231,111,81);
 }
+
+/* Fetured Bikes section */
+.fetured-img{
+    width: 288px;
+    height: 243px;
+}
+.gray-scale{
+    filter: grayscale(80%);
+}
 /* Happy Clients section */
 .happy-client-text, .icon-color{
     color: rgb(231,111,81);
+}
+/* Frequently Asked Questions part */
+.img-size{
+    height: 500px;
+    width: 100%;
+}
+.font-color{
+    color: rgb(56, 54, 54);
 }
