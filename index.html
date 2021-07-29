@@ -23,20 +23,46 @@
 <body>
     <!-- Start Header -->
     <header class="header-bg">
-        <section class=" container py-5">
-            <div class="d-flex justify-content-center align-items-center">
-                <div class="text-white">
-                    <p class="fs-6 fw-lighter">Computer-controlled digital transistorized with electronic advance</p>
+        <section class=" container py-5 ">
+            <div class=" d-lg-flex d-md-flex justify-content-center align-items-center">
+                <div class="text-white ">
+                    <p class="fs-6 fw-lighter">Computer-controlled digital transistorized with
+                        electronic
+                        advance
+                    </p>
                     <h1 class="fw-bold">Honda CBR 300R</h1>
                     <p class="fs-6 fw-lighter my-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                         sint.
                         Velit
                         officia consequat
                         duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button type="button" class="px-5 py-2 border-0 text-white rounded-3 Purchase-btn">Purchase</button>
+                    <button type="button" class="px-5 py-2 border-0 text-white rounded-3 Purchase-btn"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
+
                 </div>
                 <div>
-                    <img src="images/header-bike.png" alt="">
+                    <img src="images/header-bike.png" class=" img-fluid" alt="">
+                </div>
+            </div>
+            <!--------------------------------
+                Purchase button Modal 
+            --------------------------------->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-danger fw-bold" id="exampleModalLabel">Payment Gateway</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Choose your payment gateway card or mobile banking.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Choose your gateway</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -46,12 +72,14 @@
 
     <!-- Start Main -->
     <main>
-        <h1>This is marka</h1>
+        <h1 class="bg-info d-inline">This is marka</h1>
+        <h1 class="bg-info d-inline">This is marka</h1>
     </main>
     <!-- End Main -->
 
     <!-- Start Footer -->
     <footer>
+
 
     </footer>
     <!-- End Footer -->
