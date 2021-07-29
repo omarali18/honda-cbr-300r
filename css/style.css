@@ -8,3 +8,7 @@ body{
 .Purchase-btn{
     background-color: rgb(231,111,81);
 }
+/* Happy Clients section */
+.happy-client-text, .icon-color{
+    color: rgb(231,111,81);
+}
