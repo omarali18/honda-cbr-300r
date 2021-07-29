@@ -29,3 +29,32 @@ body{
 .font-color{
     color: rgb(56, 54, 54);
 }
+/* Bonus 1 section css */
+.bonus1-img{
+    width: 130px;
+    height: 130px;
+}
+
+/* Bonus 2 section css */
+.bonus2-icon{
+    font-size: 41px;
+}
+.facebook{
+    color: #3B579D;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.google{
+    color: #f3ad5d ;
+}
+.search{
+    width: 400px;
+}
+.bomus2-img{
+    width: 155px;
+    height: 33px;
+}
+.footer-font-soze{
+    font-size: 10px;
+}
